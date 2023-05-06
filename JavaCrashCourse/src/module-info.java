@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author hemak
+ *
+ */
+module JavaCrashCourse {
+}

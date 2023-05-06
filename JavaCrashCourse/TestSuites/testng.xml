@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<test thread-count="5" name="Submit order test"> <!-- Parallel execution tests level -->
+		<classes>
+			<class name="com.hemakumar.tests.SubmitOrderTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Error Validation Tests">
+		<classes>
+			<class name="com.hemakumar.tests.ErrorValidation" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
